@@ -1,0 +1,5 @@
+colour = str(string("Please enter your favourite colour"))
+if colour = red:
+  if colour = RED:
+    if colour = Red:
+      print("I like Red too")
