@@ -1,3 +1,5 @@
-cars = ["ford", "BMW"]
-cars.append("Honda")
-print(cars)
+car = []
+car.append(input("Enter brand of car>>>")
+car.append(input("Enter brand of car>>>")
+car.append(input("Enter brand of car>>>")
+print(car)
