@@ -1,3 +1,12 @@
-TVprogramme= ['Match of the day', 'The news', 'XFactor', 'Eastenders']
+TVprogramme = ['Eastenders','Match of the day','Tipping point','Coronation Street']
 
-for (i) in range (0, 1)
+for (i) in TVprogramme:
+  print (i)
+
+
+programme = str(input("Enter another programme >>>"))
+location = int(input("Enter the location of programme between 0-3 >>>"))
+
+
+TVprogramme.append(location, programme)
+print(TVprogramme)
