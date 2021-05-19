@@ -1,0 +1,17 @@
+nums = []
+num1 = int(input("Enter a number>>>"))
+num2 = int(input("Enter a second number>>>"))
+num3 = int(input("Enter a third number>>>"))
+num4 = int(input("Enter a fourth number>>>"))
+
+
+nums.append(num1)
+nums.append(num2)
+nums.append(num3)
+
+Q = str(input("Do you still want the last number you entered saved? Enter Yes or No"))
+if Q == "Yes":
+  nums.append(num4)
+  
+else:
+  print(nums)
